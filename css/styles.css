@@ -1,0 +1,122 @@
+/* ==========================================================================
+** Estilos del sitio
+** 09/03/2022
+** ========================================================================== */
+
+
+/* selector universal para resetear los estilos por defecto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+    background: #f0eeee;
+    font-family: "Roboto", sans-serif;
+}
+
+header,
+footer,
+#pagina {
+    width: 90%;
+    max-width: 1200px;
+    /* margin: 20px auto; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pagina {
+    min-height: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* estilizar logo y nav */
+
+.logo {
+    width: 50px;
+}
+
+header {
+    display: flex;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #528df5;
+    padding: 0 16px;
+    /* padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px; */
+}
+
+header nav {
+    width: 90%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+/* header nav ul li {
+    float: left;
+} */
+
+.navLink a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main {
+    padding: 10px;
+    flex: 3;
+}
+
+.main .articlesContainer {
+    width: 100%;
+    padding: 20px 0;
+    margin-right: 1.5%;
+}
+
+.articlesContainer article {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1.5%;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.sidebar {
+    /* width: 30%; */
+    flex: 1;
+    padding: 10px;
+    background-color: #d63c28;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #528df5;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
